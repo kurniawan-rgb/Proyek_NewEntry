@@ -33,8 +33,8 @@ const routes = [
     component: () => import("@/views/outputMenu.vue"),
   },
   {
-    path: "/feedbackadmin",
-    component: () => import("@/views/feedbackAdmin.vue"),
+    path: "/output",
+    component: () => import("@/views/outputPage.vue"),
   },
 ];
 

@@ -239,3 +239,7 @@ h1 span {
   background-color: #268e7d; /* Mengatur warna latar belakang saat tombol feedback admin dihover */
   border-color: #2AAA94; /* Mengatur warna border saat tombol feedback admin dihover */
 }
+
+.margin-form{
+  margin-bottom: 100px;
+}

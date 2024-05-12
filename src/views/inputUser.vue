@@ -15,25 +15,17 @@ export default {
     <!-- Form pengisian sistem peringkat -->
     <main class="title-page" style="padding-left: 100px; padding-right: 100px;">
         <!-- Judul form -->
-        <h4 style="text-align: center;">Form pengisian sistem peringkat</h4>
+        <h4 style="text-align: center; margin-bottom: 50px;">Form pengisian sistem peringkat</h4>
+    <div class="margin-form">
         <!-- Field tahun -->
-        <div class="mb-3">
+         <div class="mb-3">
             <label for="tahun" class="form-label">Tahun</label>
             <input type="email" class="form-control" id="tahun" placeholder="2024">
         </div>
-        <!-- Field nomor pertanyaan -->
-        <div class="mb-3">
-            <label for="nomor_pertanyaan" class="form-label">Nomor Pertanyaan</label>
-            <input type="email" class="form-control" id="nomor_pertanyaan" placeholder="Nomor 1">
-        </div>
-        <!-- Field pertanyaan -->
-        <div class="mb-3">
-            <label for="pertanyaan" class="form-label">Pertanyaan</label>
-            <input type="email" class="form-control" id="pertanyaan" placeholder="Berapa uas fakultas teknik">
-        </div>
         <!-- Field jawaban -->
         <div class="mb-3">
-            <label for="jawaban" class="form-label">Jawaban</label>
+            <h6>1. Berapa luas fakultas teknik universitas hasanuddin</h6>
+            <label style="margin-top: -8px;" for="jawaban" class="form-label">Jawaban</label>
             <textarea class="form-control" id="jawaban" rows="3" placeholder="Ibo ganteng sekali tidak ada dua nya"></textarea>
         </div>
         <!-- Field lampirkan URL -->
@@ -46,8 +38,9 @@ export default {
             <label for="lampiran_file" class="form-label">Lampiran file (Jpg,Jpeg,Png,Docx,Pdf)</label>
             <input class="form-control" type="file" id="lampiran_file">
         </div>
+    </div>
         <!-- Pagination -->
-        <nav aria-label="Page navigation example">
+        <nav class="mb-3 next" aria-label="Page navigation example">
             <ul class="pagination justify-content-center">
                 <li class="page-item disabled">
                     <a class="page-link">Previous</a>

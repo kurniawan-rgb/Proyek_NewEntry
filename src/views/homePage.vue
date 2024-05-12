@@ -25,9 +25,9 @@ export default {
         <div class="card" style="width: 18rem;">
           <img src="../assets/WCN (QS/WCN.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">WCN (QS/THE)</h5>
+            <h5 class="card-title">WCU (QS/THE)</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">WCN (QS/THE)</a>
+            <a href="#" class="btn btn-primary">WCU (QS/THE)</a>
           </div>
         </div>
 
@@ -35,9 +35,11 @@ export default {
         <div class="card" style="width: 18rem;">
           <img src="../assets/NI Greenmetrit/ni.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">NI Greenmetrit</h5>
+            <h5 class="card-title">NU Greenmetric</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">NI Greenmetrit</a>
+            <RouterLink to="/input">
+            <a href="#" class="btn btn-primary">NU Greenmetric</a>
+            </RouterLink>
           </div>
         </div> 
 
