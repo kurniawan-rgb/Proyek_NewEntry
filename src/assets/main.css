@@ -1,0 +1,241 @@
+@import './base.css'; /* Mengimpor file base.css */
+@import 'bootstrap'; /* Mengimpor framework Bootstrap */
+
+
+/* Global */
+body {
+  font-family: "Saira", sans-serif; /* Mengatur font untuk seluruh halaman */
+}
+
+.title-page {
+  padding-top: 25px; /* Memberikan padding atas pada judul halaman */
+}
+
+
+/* HomePage */
+h1 span {
+  color: #2AAA94; /* Mengatur warna teks untuk bagian yang ditebalkan di dalam judul */
+}
+
+.card-body {
+  background-color: #f8f9fa; /* Mengatur warna latar belakang bagian isi kartu */
+  border-radius: 25px; /* Mengatur radius sudut untuk bagian isi kartu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan pada kartu */
+}
+
+.card-img-top {
+  border-top-left-radius: 8px; /* Mengatur radius sudut untuk sudut atas kiri gambar kartu */
+  border-top-right-radius: 8px; /* Mengatur radius sudut untuk sudut atas kanan gambar kartu */
+}
+
+.container {
+  max-width: 400px; /* Mengatur lebar maksimum kontainer */
+  margin: 0 auto; /* Mengatur margin horizontal */
+  padding: 50px 20px; /* Mengatur padding atas dan bawah serta kiri dan kanan */
+  text-align: center; /* Pusatkan teks */
+}
+
+.card {
+  margin-left: 30px; /* Mengatur margin kiri untuk kartu */
+  border-radius: 23px; /* Mengatur radius sudut untuk kartu */
+}
+
+.paragrah-page {
+  margin-bottom: 40px; /* Mengatur margin bawah untuk paragraf */
+}
+
+
+/* LoginPage */
+.title-page-login {
+  margin-bottom: 30px; /* Mengatur margin bawah untuk judul halaman login */
+}
+
+.btn-primary {
+  width: 100%; /* Mengatur lebar tombol menjadi 100% */
+}
+
+.form-label {
+  display: flex; /* Menjadikan label dalam bentuk flex */
+  justify-content: start; /* Posisikan label mulai dari kiri */
+}
+
+.img-size {
+  width: 30em; /* Mengatur lebar gambar */
+  height: auto; /* Biarkan ketinggian gambar disesuaikan dengan aspek rasio */
+}
+
+.form-login {
+  padding-right: 80px; /* Mengatur padding kanan untuk form login */
+  margin-left: 40px; /* Mengatur margin kiri untuk form login */
+}
+
+.btn-login {
+  background-color: #2AAA94; /* Mengatur warna latar belakang tombol login */
+  color: white; /* Mengatur warna teks pada tombol login */
+  padding: 7px; /* Mengatur padding untuk tombol login */
+  text-align: center; /* Pusatkan teks pada tombol login */
+  border: none; /* Hapus border pada tombol login */
+}
+
+.btn-login:hover {
+  background-color: #268e7d; /* Mengatur warna latar belakang saat tombol login dihover */
+  border-color: #2AAA94; /* Mengatur warna border saat tombol login dihover */
+}
+
+
+/* ErrorPage */
+.margin-error {
+  margin-top: 15em; /* Mengatur margin atas untuk halaman error */
+}
+
+.error-color {
+  color: #2AAA94; /* Mengatur warna teks untuk pesan error */
+}
+
+
+/* DashboardPage */
+.rounded-image {
+  border-radius: 50%; /* Mengatur radius sudut untuk gambar bulat */
+}
+
+.custom-card {
+  background-color: rgba(42, 170, 148, 0.2); /* Mengatur warna latar belakang untuk kartu */
+}
+
+.container-dashboard {
+  display: flex; /* Menjadikan kontainer dalam bentuk flex */
+  align-items: center; /* Posisikan konten secara vertikal di tengah */
+  padding: 15px; /* Mengatur padding untuk kontainer dashboard */
+  justify-content: center; /* Pusatkan konten secara horizontal */
+}
+
+.margin-top-dashboard {
+  margin-top: -10px; /* Mengatur margin atas untuk dashboard */
+}
+
+.button-wrapper-dashboard {
+  display: flex; /* Menjadikan wrapper tombol dalam bentuk flex */
+  justify-content: center; /* Pusatkan tombol secara horizontal */
+  align-items: center; /* Posisikan tombol secara vertikal di tengah */
+  text-decoration: none; /* Hapus dekorasi teks tombol */
+}
+
+.btn-dashboard {
+  background-color: #2AAA94; /* Mengatur warna latar belakang tombol dashboard */
+  color: white; /* Mengatur warna teks pada tombol dashboard */
+  padding: 7px; /* Mengatur padding untuk tombol dashboard */
+  text-align: center; /* Pusatkan teks pada tombol dashboard */
+  padding-left: 8px; /* Mengatur padding kiri untuk tombol dashboard */
+  padding-right: 8px; /* Mengatur padding kanan untuk tombol dashboard */
+  width: 50%; /* Mengatur lebar tombol dashboard */
+  display: flex; /* Menjadikan tombol dalam bentuk flex */
+  justify-content: center; /* Pusatkan tombol secara horizontal */
+  align-items: center; /* Posisikan tombol secara vertikal di tengah */
+  border: none; /* Hapus border pada tombol dashboard */
+}
+
+.btn-dashboard:hover {
+  background-color: #268e7d; /* Mengatur warna latar belakang saat tombol dashboard dihover */
+  border-color: #2AAA94; /* Mengatur warna border saat tombol dashboard dihover */
+}
+
+
+/* InputPage */
+.page-link {
+  color: #2AAA94; /* Mengatur warna teks untuk tautan halaman */
+}
+
+.page-link:hover {
+  background-color: #2AAA94; /* Mengatur warna latar belakang saat tautan halaman dihover */
+  color: white; /* Mengatur warna teks saat tautan halaman dihover */
+}
+
+
+/* OutputMenu */
+.custom-card-outputmenu {
+  background-color: rgba(42, 170, 148, 0.2); /* Mengatur warna latar belakang untuk kartu */
+}
+
+.container-outputmenu {
+  display: flex; /* Menjadikan kontainer dalam bentuk flex */
+  align-items: center; /* Posisikan konten secara vertikal di tengah */
+  padding: 15px; /* Mengatur padding untuk kontainer output menu */
+  justify-content: center; /* Pusatkan konten secara horizontal */
+}
+
+.margin-top-outputmenu {
+  margin-top: -10px; /* Mengatur margin atas untuk output menu */
+}
+
+.button-wrapper-outputmenu {
+  display: flex; /* Menjadikan wrapper tombol dalam bentuk flex */
+  justify-content: center; /* Pusatkan tombol secara horizontal */
+  align-items: center; /* Posisikan tombol secara vertikal di tengah */
+  text-decoration: none; /* Hapus dekorasi teks tombol */
+}
+
+.btn-outputmenu {
+  background-color: #2AAA94; /* Mengatur warna latar belakang tombol output menu */
+  color: white; /* Mengatur warna teks pada tombol output menu */
+  padding: 7px; /* Mengatur padding untuk tombol output menu */
+  text-align: center; /* Pusatkan teks pada tombol output menu */
+  padding-left: 8px; /* Mengatur padding kiri untuk tombol output menu */
+  padding-right: 8px; /* Mengatur padding kanan untuk tombol output menu */
+  width: 50%; /* Mengatur lebar tombol output menu */
+  display: flex; /* Menjadikan tombol dalam bentuk flex */
+  justify-content: center; /* Pusatkan tombol secara horizontal */
+  align-items: center; /* Posisikan tombol secara vertikal di tengah */
+  border: none; /* Hapus border pada tombol output menu */
+}
+
+.btn-outputmenu:hover {
+  background-color: #268e7d; /* Mengatur warna latar belakang saat tombol output menu dihover */
+  border-color: #2AAA94; /* Mengatur warna border saat tombol output menu dihover */
+}
+
+
+/* FeedbackAdmin */
+.rounded-image-feedbackadmin {
+  border-radius: 50%; /* Mengatur radius sudut untuk gambar bulat */
+}
+
+.custom-card-feedbackadmin {
+  background-color: rgba(42, 170, 148, 0.2); /* Mengatur warna latar belakang untuk kartu */
+}
+
+.container-feedbackadmin {
+  display: flex; /* Menjadikan kontainer dalam bentuk flex */
+  align-items: center; /* Posisikan konten secara vertikal di tengah */
+  padding: 15px; /* Mengatur padding untuk kontainer feedback admin */
+  justify-content: center; /* Pusatkan konten secara horizontal */
+}
+
+.margin-top-feedbackadmin {
+  margin-top: -10px; /* Mengatur margin atas untuk feedback admin */
+}
+
+.button-wrapper-feedbackadmin {
+  display: flex; /* Menjadikan wrapper tombol dalam bentuk flex */
+  justify-content: center; /* Pusatkan tombol secara horizontal */
+  align-items: center; /* Posisikan tombol secara vertikal di tengah */
+  text-decoration: none; /* Hapus dekorasi teks tombol */
+}
+
+.btn-feedbackadmin {
+  background-color: #2AAA94; /* Mengatur warna latar belakang tombol feedback admin */
+  color: white; /* Mengatur warna teks pada tombol feedback admin */
+  padding: 7px; /* Mengatur padding untuk tombol feedback admin */
+  text-align: center; /* Pusatkan teks pada tombol feedback admin */
+  padding-left: 8px; /* Mengatur padding kiri untuk tombol feedback admin */
+  padding-right: 8px; /* Mengatur padding kanan untuk tombol feedback admin */
+  width: 50%; /* Mengatur lebar tombol feedback admin */
+  display: flex; /* Menjadikan tombol dalam bentuk flex */
+  justify-content: center; /* Pusatkan tombol secara horizontal */
+  align-items: center; /* Posisikan tombol secara vertikal di tengah */
+  border: none; /* Hapus border pada tombol feedback admin */
+}
+
+.btn-feedbackadmin:hover {
+  background-color: #268e7d; /* Mengatur warna latar belakang saat tombol feedback admin dihover */
+  border-color: #2AAA94; /* Mengatur warna border saat tombol feedback admin dihover */
+}
