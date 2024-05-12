@@ -16,6 +16,7 @@ const routes = [
     path: "/about",
     component: aboutPage,
   },
+<<<<<<< HEAD
   {
     path: "/error",
     component: () => import("@/views/errorPage.vue"),
@@ -36,6 +37,8 @@ const routes = [
     path: "/output",
     component: () => import("@/views/outputPage.vue"),
   },
+=======
+>>>>>>> c5c7178444d3a4a4aad409868239a233e8c1bbe4
 ];
 
 const router = createRouter({
