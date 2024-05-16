@@ -1,245 +1,252 @@
-@import './base.css'; /* Mengimpor file base.css */
-@import 'bootstrap'; /* Mengimpor framework Bootstrap */
+@import './base.css';
+@import 'bootstrap';
 
-
-/* Global */
+/* GLOBAL */
 body {
-  font-family: "Saira", sans-serif; /* Mengatur font untuk seluruh halaman */
+  font-family: "Saira", sans-serif;
+}
+
+.border-btn {
+border-radius: 5px;
 }
 
 .title-page {
-  padding-top: 25px; /* Memberikan padding atas pada judul halaman */
+  padding-top: 25px;
 }
-
 
 /* HomePage */
 h1 span {
-  color: #2AAA94; /* Mengatur warna teks untuk bagian yang ditebalkan di dalam judul */
+  color: #2AAA94;
 }
 
 .card-body {
-  background-color: #f8f9fa; /* Mengatur warna latar belakang bagian isi kartu */
-  border-radius: 25px; /* Mengatur radius sudut untuk bagian isi kartu */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan pada kartu */
+  background-color: #f8f9fa;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-img-top {
-  border-top-left-radius: 8px; /* Mengatur radius sudut untuk sudut atas kiri gambar kartu */
-  border-top-right-radius: 8px; /* Mengatur radius sudut untuk sudut atas kanan gambar kartu */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .container {
-  max-width: 400px; /* Mengatur lebar maksimum kontainer */
-  margin: 0 auto; /* Mengatur margin horizontal */
-  padding: 50px 20px; /* Mengatur padding atas dan bawah serta kiri dan kanan */
-  text-align: center; /* Pusatkan teks */
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
 }
 
 .card {
-  margin-left: 30px; /* Mengatur margin kiri untuk kartu */
-  border-radius: 23px; /* Mengatur radius sudut untuk kartu */
+  margin-left: 30px;
+  border-radius: 23px;
 }
 
 .paragrah-page {
-  margin-bottom: 40px; /* Mengatur margin bawah untuk paragraf */
+  margin-bottom: 40px;
+}
+
+.btn-home {
+  background-color: #2AAA94;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.btn-home:hover {
+  background-color: #268e7d;
+  border-color: #2AAA94;
+}
+
+.btn-home:active {
+  background-color: #1f7e6e;
+  border-color: #1f7e6e;
 }
 
 
 /* LoginPage */
 .title-page-login {
-  margin-bottom: 30px; /* Mengatur margin bawah untuk judul halaman login */
+  margin-bottom: 30px;
 }
 
 .btn-primary {
-  width: 100%; /* Mengatur lebar tombol menjadi 100% */
+  width: 100%;
 }
 
 .form-label {
-  display: flex; /* Menjadikan label dalam bentuk flex */
-  justify-content: start; /* Posisikan label mulai dari kiri */
+  display: flex;
+  justify-content: start;
 }
 
 .img-size {
-  width: 30em; /* Mengatur lebar gambar */
-  height: auto; /* Biarkan ketinggian gambar disesuaikan dengan aspek rasio */
+  width: 30em;
+  height: auto;
 }
 
 .form-login {
-  padding-right: 80px; /* Mengatur padding kanan untuk form login */
-  margin-left: 40px; /* Mengatur margin kiri untuk form login */
+  padding-right: 80px;
+  margin-left: 40px;
 }
 
 .btn-login {
-  background-color: #2AAA94; /* Mengatur warna latar belakang tombol login */
-  color: white; /* Mengatur warna teks pada tombol login */
-  padding: 7px; /* Mengatur padding untuk tombol login */
-  text-align: center; /* Pusatkan teks pada tombol login */
-  border: none; /* Hapus border pada tombol login */
+  background-color: #2AAA94;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  border: none;
 }
 
 .btn-login:hover {
-  background-color: #268e7d; /* Mengatur warna latar belakang saat tombol login dihover */
-  border-color: #2AAA94; /* Mengatur warna border saat tombol login dihover */
+  background-color: #268e7d;
+  border-color: #2AAA94;
+}
+
+.btn-login:active {
+  background-color: #1f7e6e;
+  border-color: #1f7e6e;
 }
 
 
 /* ErrorPage */
 .margin-error {
-  margin-top: 15em; /* Mengatur margin atas untuk halaman error */
+  margin-top: 15em;
 }
 
 .error-color {
-  color: #2AAA94; /* Mengatur warna teks untuk pesan error */
+  color: #2AAA94;
 }
-
 
 /* DashboardPage */
 .rounded-image {
-  border-radius: 50%; /* Mengatur radius sudut untuk gambar bulat */
+  border-radius: 50%;
 }
 
 .custom-card {
-  background-color: rgba(42, 170, 148, 0.2); /* Mengatur warna latar belakang untuk kartu */
+  background-color: rgba(42, 170, 148, 0.2);
 }
 
 .container-dashboard {
-  display: flex; /* Menjadikan kontainer dalam bentuk flex */
-  align-items: center; /* Posisikan konten secara vertikal di tengah */
-  padding: 15px; /* Mengatur padding untuk kontainer dashboard */
-  justify-content: center; /* Pusatkan konten secara horizontal */
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: center;
 }
 
 .margin-top-dashboard {
-  margin-top: -10px; /* Mengatur margin atas untuk dashboard */
+  margin-top: -10px;
 }
 
 .button-wrapper-dashboard {
-  display: flex; /* Menjadikan wrapper tombol dalam bentuk flex */
-  justify-content: center; /* Pusatkan tombol secara horizontal */
-  align-items: center; /* Posisikan tombol secara vertikal di tengah */
-  text-decoration: none; /* Hapus dekorasi teks tombol */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
 .btn-dashboard {
-  background-color: #2AAA94; /* Mengatur warna latar belakang tombol dashboard */
-  color: white; /* Mengatur warna teks pada tombol dashboard */
-  padding: 7px; /* Mengatur padding untuk tombol dashboard */
-  text-align: center; /* Pusatkan teks pada tombol dashboard */
-  padding-left: 8px; /* Mengatur padding kiri untuk tombol dashboard */
-  padding-right: 8px; /* Mengatur padding kanan untuk tombol dashboard */
-  width: 50%; /* Mengatur lebar tombol dashboard */
-  display: flex; /* Menjadikan tombol dalam bentuk flex */
-  justify-content: center; /* Pusatkan tombol secara horizontal */
-  align-items: center; /* Posisikan tombol secara vertikal di tengah */
-  border: none; /* Hapus border pada tombol dashboard */
+  background-color: #2AAA94;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
 }
 
 .btn-dashboard:hover {
-  background-color: #268e7d; /* Mengatur warna latar belakang saat tombol dashboard dihover */
-  border-color: #2AAA94; /* Mengatur warna border saat tombol dashboard dihover */
+  background-color: #268e7d;
+  border-color: #2AAA94;
+}
+
+.btn-dashboard:active {
+  background-color: #1f7e6e;
+  border-color: #1f7e6e;
 }
 
 
 /* InputPage */
 .page-link {
-  color: #2AAA94; /* Mengatur warna teks untuk tautan halaman */
+  color: #2AAA94;
 }
 
 .page-link:hover {
-  background-color: #2AAA94; /* Mengatur warna latar belakang saat tautan halaman dihover */
-  color: white; /* Mengatur warna teks saat tautan halaman dihover */
+  background-color: #2AAA94;
+  color: white;
+}
+
+/* OutputMenu */
+.custom-card-outputmenu {
+  background-color: rgba(42, 170, 148, 0.2);
+}
+
+.container-outputmenu {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: center;
+}
+
+.margin-top-outputmenu {
+  margin-top: -10px; 
+}
+
+.button-wrapper-outputmenu {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-decoration: none; 
+}
+
+.btn-outputmenu {
+  background-color: #2AAA94; 
+  color: white; 
+  padding: 7px; 
+  text-align: center; 
+  padding-left: 8px;
+  padding-right: 8px;  
+  width: 50%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border: none;
+}
+
+.btn-outputmenu:hover {
+  background-color: #268e7d; 
+  border-color: #2AAA94; 
 }
 
 
 /* OutputMenu */
-.custom-card-outputmenu {
-  background-color: rgba(42, 170, 148, 0.2); /* Mengatur warna latar belakang untuk kartu */
+.btn-navbar {
+  background-color: #2AAA94;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
 }
 
-.container-outputmenu {
-  display: flex; /* Menjadikan kontainer dalam bentuk flex */
-  align-items: center; /* Posisikan konten secara vertikal di tengah */
-  padding: 15px; /* Mengatur padding untuk kontainer output menu */
-  justify-content: center; /* Pusatkan konten secara horizontal */
+.btn-navbar:hover {
+  background-color: #268e7d;
+  border-color: #2AAA94;
 }
 
-.margin-top-outputmenu {
-  margin-top: -10px; /* Mengatur margin atas untuk output menu */
-}
-
-.button-wrapper-outputmenu {
-  display: flex; /* Menjadikan wrapper tombol dalam bentuk flex */
-  justify-content: center; /* Pusatkan tombol secara horizontal */
-  align-items: center; /* Posisikan tombol secara vertikal di tengah */
-  text-decoration: none; /* Hapus dekorasi teks tombol */
-}
-
-.btn-outputmenu {
-  background-color: #2AAA94; /* Mengatur warna latar belakang tombol output menu */
-  color: white; /* Mengatur warna teks pada tombol output menu */
-  padding: 7px; /* Mengatur padding untuk tombol output menu */
-  text-align: center; /* Pusatkan teks pada tombol output menu */
-  padding-left: 8px; /* Mengatur padding kiri untuk tombol output menu */
-  padding-right: 8px; /* Mengatur padding kanan untuk tombol output menu */
-  width: 50%; /* Mengatur lebar tombol output menu */
-  display: flex; /* Menjadikan tombol dalam bentuk flex */
-  justify-content: center; /* Pusatkan tombol secara horizontal */
-  align-items: center; /* Posisikan tombol secara vertikal di tengah */
-  border: none; /* Hapus border pada tombol output menu */
-}
-
-.btn-outputmenu:hover {
-  background-color: #268e7d; /* Mengatur warna latar belakang saat tombol output menu dihover */
-  border-color: #2AAA94; /* Mengatur warna border saat tombol output menu dihover */
-}
-
-
-/* FeedbackAdmin */
-.rounded-image-feedbackadmin {
-  border-radius: 50%; /* Mengatur radius sudut untuk gambar bulat */
-}
-
-.custom-card-feedbackadmin {
-  background-color: rgba(42, 170, 148, 0.2); /* Mengatur warna latar belakang untuk kartu */
-}
-
-.container-feedbackadmin {
-  display: flex; /* Menjadikan kontainer dalam bentuk flex */
-  align-items: center; /* Posisikan konten secara vertikal di tengah */
-  padding: 15px; /* Mengatur padding untuk kontainer feedback admin */
-  justify-content: center; /* Pusatkan konten secara horizontal */
-}
-
-.margin-top-feedbackadmin {
-  margin-top: -10px; /* Mengatur margin atas untuk feedback admin */
-}
-
-.button-wrapper-feedbackadmin {
-  display: flex; /* Menjadikan wrapper tombol dalam bentuk flex */
-  justify-content: center; /* Pusatkan tombol secara horizontal */
-  align-items: center; /* Posisikan tombol secara vertikal di tengah */
-  text-decoration: none; /* Hapus dekorasi teks tombol */
-}
-
-.btn-feedbackadmin {
-  background-color: #2AAA94; /* Mengatur warna latar belakang tombol feedback admin */
-  color: white; /* Mengatur warna teks pada tombol feedback admin */
-  padding: 7px; /* Mengatur padding untuk tombol feedback admin */
-  text-align: center; /* Pusatkan teks pada tombol feedback admin */
-  padding-left: 8px; /* Mengatur padding kiri untuk tombol feedback admin */
-  padding-right: 8px; /* Mengatur padding kanan untuk tombol feedback admin */
-  width: 50%; /* Mengatur lebar tombol feedback admin */
-  display: flex; /* Menjadikan tombol dalam bentuk flex */
-  justify-content: center; /* Pusatkan tombol secara horizontal */
-  align-items: center; /* Posisikan tombol secara vertikal di tengah */
-  border: none; /* Hapus border pada tombol feedback admin */
-}
-
-.btn-feedbackadmin:hover {
-  background-color: #268e7d; /* Mengatur warna latar belakang saat tombol feedback admin dihover */
-  border-color: #2AAA94; /* Mengatur warna border saat tombol feedback admin dihover */
-}
-
-.margin-form{
-  margin-bottom: 100px;
+.btn-navbar:active {
+  background-color: #1f7e6e;
+  border-color: #1f7e6e;
 }
