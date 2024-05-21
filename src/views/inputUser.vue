@@ -39,93 +39,95 @@ export default {
       />
     </div>
 
-    <div class="margin-form">
-      <div class="mb-3">
-        <h6>1. Pertanyaan</h6>
-        <label style="margin-top: -8px" for="jawaban1" class="form-label"
-          >Jawaban</label
-        >
-        <textarea
-          class="form-control"
-          id="jawaban1"
-          rows="3"
-          placeholder="Masukkan jawaban anda"
-        ></textarea>
+    <div style="margin-bottom: -5ch;">
+      <div class="margin-form">
+        <div class="mb-3">
+          <h6>1. Pertanyaan</h6>
+          <label style="margin-top: -8px" for="jawaban1" class="form-label"
+            >Jawaban</label
+          >
+          <textarea
+            class="form-control"
+            id="jawaban1"
+            rows="3"
+            placeholder="Masukkan jawaban anda"
+          ></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="lampirkan_url1" class="form-label">Lampirkan URL</label>
+          <input
+            type="email"
+            class="form-control"
+            id="lampirkan_url1"
+            placeholder="Lampirkan URL jika ada"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="lampiran_file1" class="form-label"
+            >Lampiran file (Jpg,Jpeg,Png,Docx,Pdf)</label
+          >
+          <input class="form-control" type="file" id="lampiran_file1" />
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="lampirkan_url1" class="form-label">Lampirkan URL</label>
-        <input
-          type="email"
-          class="form-control"
-          id="lampirkan_url1"
-          placeholder="Lampirkan URL jika ada"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="lampiran_file1" class="form-label"
-          >Lampiran file (Jpg,Jpeg,Png,Docx,Pdf)</label
-        >
-        <input class="form-control" type="file" id="lampiran_file1" />
-      </div>
-    </div>
 
-    <div class="margin-form">
-      <div class="mb-3">
-        <h6>2. Pertanyaan</h6>
-        <label style="margin-top: -8px" for="jawaban2" class="form-label"
-          >Jawaban</label
-        >
-        <textarea
-          class="form-control"
-          id="jawaban2"
-          rows="3"
-          placeholder="Masukkan jawaban anda"
-        ></textarea>
+      <div class="margin-form">
+        <div class="mb-3">
+          <h6>2. Pertanyaan</h6>
+          <label style="margin-top: -8px" for="jawaban2" class="form-label"
+            >Jawaban</label
+          >
+          <textarea
+            class="form-control"
+            id="jawaban2"
+            rows="3"
+            placeholder="Masukkan jawaban anda"
+          ></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="lampirkan_url2" class="form-label">Lampirkan URL</label>
+          <input
+            type="email"
+            class="form-control"
+            id="lampirkan_url2"
+            placeholder="Lampirkan URL jika ada"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="lampiran_file2" class="form-label"
+            >Lampiran file (Jpg,Jpeg,Png,Docx,Pdf)</label
+          >
+          <input class="form-control" type="file" id="lampiran_file2" />
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="lampirkan_url2" class="form-label">Lampirkan URL</label>
-        <input
-          type="email"
-          class="form-control"
-          id="lampirkan_url2"
-          placeholder="Lampirkan URL jika ada"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="lampiran_file2" class="form-label"
-          >Lampiran file (Jpg,Jpeg,Png,Docx,Pdf)</label
-        >
-        <input class="form-control" type="file" id="lampiran_file2" />
-      </div>
-    </div>
 
-    <div class="margin-form">
-      <div class="mb-3">
-        <h6>3. Pertanyaan</h6>
-        <label style="margin-top: -8px" for="jawaban3" class="form-label"
-          >Jawaban</label
-        >
-        <textarea
-          class="form-control"
-          id="jawaban3"
-          rows="3"
-          placeholder="Masukkan jawaban anda"
-        ></textarea>
-      </div>
-      <div class="mb-3">
-        <label for="lampirkan_url3" class="form-label">Lampirkan URL</label>
-        <input
-          type="email"
-          class="form-control"
-          id="lampirkan_url3"
-          placeholder="Lampirkan URL jika ada"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="lampiran_file3" class="form-label"
-          >Lampiran file (Jpg,Jpeg,Png,Docx,Pdf)</label
-        >
-        <input class="form-control" type="file" id="lampiran_file3" />
+      <div class="margin-form">
+        <div class="mb-3">
+          <h6>3. Pertanyaan</h6>
+          <label style="margin-top: -8px" for="jawaban3" class="form-label"
+            >Jawaban</label
+          >
+          <textarea
+            class="form-control"
+            id="jawaban3"
+            rows="3"
+            placeholder="Masukkan jawaban anda"
+          ></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="lampirkan_url3" class="form-label">Lampirkan URL</label>
+          <input
+            type="email"
+            class="form-control"
+            id="lampirkan_url3"
+            placeholder="Lampirkan URL jika ada"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="lampiran_file3" class="form-label"
+            >Lampiran file (Jpg,Jpeg,Png,Docx,Pdf)</label
+          >
+          <input class="form-control" type="file" id="lampiran_file3" />
+        </div>
       </div>
     </div>
 
