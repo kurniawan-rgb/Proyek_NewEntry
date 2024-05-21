@@ -25,7 +25,7 @@ export default {
     <a
       href="https://www.contoh.com"
       style="display: block; text-align: center; margin-top: 20px"
-      >link ibo gantneg</a
+      >https://www.contoh.com</a
     >
   </main>
 </template>

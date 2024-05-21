@@ -1,5 +1,5 @@
-@import './base.css';
-@import 'bootstrap';
+@import "./base.css";
+@import "bootstrap";
 
 /* GLOBAL */
 body {
@@ -7,16 +7,23 @@ body {
 }
 
 .border-btn {
-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .title-page {
   padding-top: 25px;
 }
 
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 /* HomePage */
 h1 span {
-  color: #2AAA94;
+  color: #2aaa94;
 }
 
 .card-body {
@@ -47,7 +54,7 @@ h1 span {
 }
 
 .btn-home {
-  background-color: #2AAA94;
+  background-color: #2aaa94;
   color: white;
   padding: 7px;
   text-align: center;
@@ -61,14 +68,13 @@ h1 span {
 
 .btn-home:hover {
   background-color: #268e7d;
-  border-color: #2AAA94;
+  border-color: #2aaa94;
 }
 
 .btn-home:active {
   background-color: #1f7e6e;
   border-color: #1f7e6e;
 }
-
 
 /* LoginPage */
 .title-page-login {
@@ -95,7 +101,7 @@ h1 span {
 }
 
 .btn-login {
-  background-color: #2AAA94;
+  background-color: #2aaa94;
   color: white;
   padding: 7px;
   text-align: center;
@@ -104,7 +110,7 @@ h1 span {
 
 .btn-login:hover {
   background-color: #268e7d;
-  border-color: #2AAA94;
+  border-color: #2aaa94;
 }
 
 .btn-login:active {
@@ -112,14 +118,13 @@ h1 span {
   border-color: #1f7e6e;
 }
 
-
 /* ErrorPage */
 .margin-error {
   margin-top: 15em;
 }
 
 .error-color {
-  color: #2AAA94;
+  color: #2aaa94;
 }
 
 /* DashboardPage */
@@ -150,7 +155,7 @@ h1 span {
 }
 
 .btn-dashboard {
-  background-color: #2AAA94;
+  background-color: #2aaa94;
   color: white;
   padding: 7px;
   text-align: center;
@@ -165,7 +170,7 @@ h1 span {
 
 .btn-dashboard:hover {
   background-color: #268e7d;
-  border-color: #2AAA94;
+  border-color: #2aaa94;
 }
 
 .btn-dashboard:active {
@@ -173,14 +178,13 @@ h1 span {
   border-color: #1f7e6e;
 }
 
-
 /* InputPage */
 .page-link {
-  color: #2AAA94;
+  color: #2aaa94;
 }
 
 .page-link:hover {
-  background-color: #2AAA94;
+  background-color: #2aaa94;
   color: white;
 }
 
@@ -197,39 +201,47 @@ h1 span {
 }
 
 .margin-top-outputmenu {
-  margin-top: -10px; 
+  margin-top: -10px;
 }
 
 .button-wrapper-outputmenu {
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  text-decoration: none; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
 .btn-outputmenu {
-  background-color: #2AAA94; 
-  color: white; 
-  padding: 7px; 
-  text-align: center; 
+  background-color: #2aaa94;
+  color: white;
+  padding: 7px;
+  text-align: center;
   padding-left: 8px;
-  padding-right: 8px;  
-  width: 50%; 
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
+  padding-right: 8px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
 }
 
 .btn-outputmenu:hover {
-  background-color: #268e7d; 
-  border-color: #2AAA94; 
+  background-color: #268e7d;
+  border-color: #2aaa94;
 }
 
+/* Navbar Page */
+.fixed-button-admin {
+  position: fixed;
+  margin-bottom: 100ch;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 1000;
+}
 
-/* OutputMenu */
 .btn-navbar {
-  background-color: #2AAA94;
+  background-color: #2aaa94;
   color: white;
   padding: 7px;
   text-align: center;
@@ -243,7 +255,7 @@ h1 span {
 
 .btn-navbar:hover {
   background-color: #268e7d;
-  border-color: #2AAA94;
+  border-color: #2aaa94;
 }
 
 .btn-navbar:active {
@@ -252,5 +264,77 @@ h1 span {
 }
 
 .custom-bg-color-navbar {
-  background-color:#edfdfa
+  background-color: #edfdfa;
+}
+
+.nav-linkk[aria-current="page"] {
+  font-weight: bold;
+}
+
+.nav-linkk.active {
+  font-weight: bold;
+}
+
+/*Admin User*/
+.container-admin-user {
+  display: flex;
+}
+
+.custom-nav-admin {
+  width: 250px; /* Tetapkan lebar navbar admin */
+}
+
+.content-admin-user {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.col-no {
+  width: 50px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #edfdfa;
+  text-align: left;
+}
+
+.question-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-button {
+  margin-left: 10px;
+}
+
+.form-check {
+  display: flex;
+  justify-content: center;
+}
+
+.form-check-input {
+  background-color: #f2f2f2;
+  width: 20px;
+  height: 20px;
+  margin: center;
+  border: 2px solid #d0cece;
+  border-radius: 5px;
+}
+
+/*Admin 3 Menu*/
+.col-no {
+  width: 50px;
 }

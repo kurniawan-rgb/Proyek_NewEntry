@@ -36,6 +36,24 @@ const routes = [
     path: "/output",
     component: () => import("@/views/outputPage.vue"),
   },
+  {
+    path: "/adminuser",
+    component: () => import("@/views/adminUser.vue"),
+  },
+  {
+    path: "/nu",
+    component: () => import("@/views/adminNU.vue"),
+  },
+
+  {
+    path: "/wcu",
+    component: () => import("@/views/adminWCU.vue"),
+  },
+
+  {
+    path: "/sni",
+    component: () => import("@/views/adminSNI.vue"),
+  },
 ];
 
 const router = createRouter({

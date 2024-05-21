@@ -13,7 +13,7 @@ export default {
 
   <main class="title-page" style="padding-left: 100px; padding-right: 100px">
     <h4 style="text-align: center; margin-bottom: 50px">
-      Form pengisian sistem peringkat
+      Form Pengisian Sistem Peringkat
     </h4>
     <div class="margin-form">
       <div class="mb-3">
