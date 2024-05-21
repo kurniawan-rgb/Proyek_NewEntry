@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # Proyek_NewEntry
 Tugas Mata Kuliah Proyek RPL
-=======
-=======
->>>>>>> c5c7178444d3a4a4aad409868239a233e8c1bbe4
+
 # vue-project
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -33,8 +30,3 @@ npm run dev
 
 ```sh
 npm run build
-```
-<<<<<<< HEAD
->>>>>>> ad21831 (login, dashboard, home, input user, feedback admin, error page, output menu. (DONE KANDAKUUU))
-=======
->>>>>>> c5c7178444d3a4a4aad409868239a233e8c1bbe4
