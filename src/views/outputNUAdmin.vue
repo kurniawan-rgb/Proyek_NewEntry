@@ -10,7 +10,7 @@ export default {
 
 <template>
   <navbarPage />
-  <main class="title-page" style="padding-left: 100px; padding-right: 100px">
+  <main class="title-page" style="padding-left: 100px; padding-right: 100px; margin-top: 66px;">
     <div class="card mb-3 custom-card">
       <div class="container-dashboard">
         <div class="col-md-1">
@@ -18,7 +18,8 @@ export default {
             width="80"
             height="80"
             src="D:\Proyek_NewEntry-master\src\assets\User Male.png"
-            alt="...">
+            alt="..."
+          />
         </div>
         <div class="col">
           <h5 class="card-title">Richal Akbar</h5>
@@ -39,7 +40,8 @@ export default {
             width="80"
             height="80"
             src="D:\Proyek_NewEntry-master\src\assets\User Male.png"
-            alt="...">
+            alt="..."
+          />
         </div>
         <div class="col">
           <h5 class="card-title">Andi Muhammad Sabar</h5>
@@ -61,7 +63,8 @@ export default {
             width="80"
             height="80"
             src="D:\Proyek_NewEntry-master\src\assets\User Male.png"
-            alt="...">
+            alt="..."
+          />
         </div>
         <div class="col">
           <h5 class="card-title">Reza Kurniawan</h5>
@@ -82,7 +85,8 @@ export default {
             width="80"
             height="80"
             src="D:\Proyek_NewEntry-master\src\assets\User Male.png"
-            alt="...">
+            alt="..."
+          />
         </div>
         <div class="col">
           <h5 class="card-title">Daeng Rukka</h5>
@@ -104,7 +108,8 @@ export default {
             width="80"
             height="80"
             src="D:\Proyek_NewEntry-master\src\assets\User Male.png"
-            alt="...">
+            alt="..."
+          />
         </div>
         <div class="col">
           <h5 class="card-title">Ronaldo</h5>
@@ -119,9 +124,9 @@ export default {
       </div>
     </div>
   </main>
-  <router-link to="/">
-    <div class="button-wrapper-dashboard">
-      <button class="btn-dashboard btn-primary" type="submit">Kembali</button>
-    </div>
-  </router-link>
+  <a href="/" class="button-wrapper-outputmenu" style="margin-bottom: 5ch;">
+    <button class="btn-dashboard btn-primary border-btn" type="submit">
+      Kembali
+    </button>
+  </a>
 </template>

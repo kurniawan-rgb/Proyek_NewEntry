@@ -12,7 +12,7 @@ export default {
   <div>
     <navbarPage />
     <body>
-      <h1 class="title-page fw-bold text-center">
+      <h1 style="margin-top: 66px;" class="title-page fw-bold text-center">
         Sistem <span>Pemeringkatan</span>
       </h1>
       <p class="paragrah-page text-center">

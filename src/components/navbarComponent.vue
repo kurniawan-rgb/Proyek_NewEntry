@@ -1,8 +1,6 @@
 <template>
-  <div style="margin-bottom: 45px">
-    <nav
-      class="fixed-button-admin navbar navbar-expand-lg custom-bg-color-navbar"
-    >
+  <div style="margin-bottom: 45px" :class="{ open: isDropdownOpen }">
+    <nav class="fixed-button-admin navbar navbar-expand-lg custom-bg-color-navbar">
       <div class="container-fluid custom-bg-color">
         <router-link class="navbar-brand d-flex align-items-center" to="/">
           <img
@@ -45,13 +43,44 @@
                 >Dashboard</router-link
               >
             </li>
-            <li class="nav-item">
-              <router-link
-                class="nav-link"
-                :class="{ active: isActive('/outputmenu') }"
-                to="/outputmenu"
-                >View</router-link
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                @click="toggleDropdown"
               >
+                View
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <router-link
+                    class="dropdown-item"
+                    :class="{ active: isActive('/outpuwcumenuadmin') }"
+                    to="/outpuwcumenuadmin"
+                    >WCU (QS/THE)</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="dropdown-item"
+                    :class="{ active: isActive('/outputnumenuadmin') }"
+                    to="/outputnumenuadmin"
+                    >NU Greenmetric</router-link
+                  >
+                </li>
+                <li>
+                  <router-link
+                    class="dropdown-item"
+                    :class="{ active: isActive('/outputsnimenuadmin') }"
+                    to="/outputsnimenuadmin"
+                    >SNI Award</router-link
+                  >
+                </li>
+              </ul>
             </li>
           </ul>
           <div class="d-flex align-items-center" v-if="isDesktop">
@@ -99,6 +128,7 @@ export default {
   data() {
     return {
       isDesktop: true,
+      isDropdownOpen: false
     };
   },
   mounted() {
@@ -114,22 +144,25 @@ export default {
         navbarCollapse.classList.add("show");
       }
     },
+    toggleDropdown() {
+      this.isDropdownOpen = !this.isDropdownOpen;
+    },
     checkScreenSize() {
-      this.isDesktop = window.innerWidth >= 992; // Atur batas lebar sesuai dengan breakpoint untuk desktop
+      this.isDesktop = window.innerWidth >= 992;
     },
     isActive(route) {
       return this.$route.path === route;
-    },
+    }
   },
   beforeDestroy() {
     window.removeEventListener("resize", this.checkScreenSize);
-  },
+  }
 };
 </script>
 
 <style scoped>
 .custom-bg-color-navbar {
-  background-color: #edfdfa;
+  background-color: hsl(169, 80%, 96%);
 }
 
 .navbar-brand {
@@ -137,10 +170,28 @@ export default {
 }
 
 .nav-link.active {
-  color: rgb(
-    0,
-    0,
-    0
-  ); /* atau warna apa pun yang Anda inginkan untuk menandai sebagai aktif */
+  color: rgb(0, 0, 0);
+}
+
+.nav-link:hover {
+  color: rgb(0, 0, 0);
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: hsl(169, 80%, 96%);
+  color: rgb(0, 0, 0);
+}
+
+.dropdown-menu .dropdown-item.active {
+  background-color: rgba(42, 170, 148, 0.2);
+  color: rgb(0, 0, 0); 
+}
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: hsl(165, 100%, 99%);
+  display: none;
+}
+.navbar-nav > li:hover > .dropdown-menu {
+  display: block;
 }
 </style>

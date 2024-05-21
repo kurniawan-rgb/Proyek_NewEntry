@@ -21,8 +21,16 @@ const routes = [
     component: () => import("@/views/errorPage.vue"),
   },
   {
-    path: "/dashboard",
-    component: () => import("@/views/dashboardPage.vue"),
+    path: "/outputnumenuadmin",
+    component: () => import("@/views/outputNUAdmin.vue"),
+  },
+  {
+    path: "/outpuwcumenuadmin",
+    component: () => import("@/views/outputWCUAdmin.vue"),
+  },
+  {
+    path: "/outputsnimenuadmin",
+    component: () => import("@/views/outputSNIAdmin.vue"),
   },
   {
     path: "/input",

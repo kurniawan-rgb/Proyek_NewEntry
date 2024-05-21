@@ -31,7 +31,7 @@ export default {
     </a>
   </main>
 
-  <<a href="/" class="button-wrapper-outputmenu">
+  <a href="/" class="button-wrapper-outputmenu">
     <button class="btn-dashboard btn-primary border-btn" type="submit">Kembali</button>
   </a>
 </template>

@@ -73,18 +73,16 @@
                 <iconPlus v-if="!user.isNew && !user.isEditing" />
               </td>
               <td v-if="user.isNew" class="text-center action-column">
-                <button @click="addUser(index)" class="action-btn add-btn">
+                <button @click="addUser(index)" class="action-btn add-btn"> 
                   Tambah
                 </button>
               </td>
-              <td
-                v-else
-                class="text-center action-column edit-remove-container"
-              >
+              <td v-else class="text-center action-column">
                 <button
                   @click="editUser(index)"
                   v-if="!user.isEditing"
                   class="action-btn edit-btn"
+                  style="margin-right: 5px;"
                 >
                   Edit
                 </button>
@@ -92,12 +90,12 @@
                   @click="saveUser(index)"
                   v-else
                   class="action-btn save-btn"
+                  style="margin-right: 5px"
                 >
                   Simpan
                 </button>
                 <button
                   @click="removeUser(index)"
-                  style="margin-left: 5px"
                   class="action-btn remove-btn"
                 >
                   Hapus
@@ -136,6 +134,8 @@ export default {
           prodi: "Teknik Informatika",
           username: "d121211084",
           password: "d1212110841967",
+          isNew: false,
+          isEditing: false,
         },
         {
           name: "Andi Muhammad Sabar",
@@ -143,6 +143,8 @@ export default {
           prodi: "Teknik Informatika",
           username: "d121211084",
           password: "d1212110841967",
+          isNew: false,
+          isEditing: false,
         },
         {
           name: "Reza Kurniawan",
@@ -150,6 +152,8 @@ export default {
           prodi: "Teknik Informatika",
           username: "d121211084",
           password: "d1212110841967",
+          isNew: false,
+          isEditing: false,
         },
       ],
     };
@@ -170,7 +174,13 @@ export default {
       this.users[index].isNew = false;
     },
     editUser(index) {
-      this.users[index].isEditing = true;
+      this.users.forEach((user, i) => {
+        if (i === index) {
+          user.isEditing = true;
+        } else {
+          user.isEditing = false;
+        }
+      });
     },
     saveUser(index) {
       this.users[index].isEditing = false;
@@ -277,6 +287,6 @@ export default {
 }
 
 .action-column {
-  width: 15ch;
+  width: 20ch; /* Adjusted to fit the buttons */
 }
 </style>
