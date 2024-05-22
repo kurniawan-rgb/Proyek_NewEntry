@@ -11,7 +11,7 @@ export default {
 <template>
   <navbarPage />
 
-  <main class="title-page" style="padding-left: 100px; padding-right: 100px">
+  <main class="title-page" style="padding-left: 100px; padding-right: 100px; margin-top: 66px;">
     <a
       href="/output"
       class="card mb-3 custom-card text-decoration-none"

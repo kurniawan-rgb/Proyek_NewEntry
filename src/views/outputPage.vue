@@ -11,8 +11,8 @@ export default {
 <template>
   <navbarPage />
 
-  <main class="title-page">
-    <h4 style="text-align: center">Pertanyaan</h4>
+  <main style="margin-top: 66px;" class="title-page">
+    <h4 style="text-align: center;">Pertanyaan</h4>
 
     <div style="margin-top: 20px" class="text-center">
       <img src="../assets/r.png" class="rounded" alt="..." />
